@@ -22,7 +22,7 @@
 6. Build front-end part (see Frontend section below)
 7. (For development) Start the server with: `npm run dev`
 8. (For production) Run `npm run start`
-9. (For production with PM2) Build `npm run build` & run `pm2 start ecosystem.config.cjs --env production`
+9. (For production with PM2) Build backend `npm run build` & run `pm2 start ecosystem.config.cjs --env production`
 
 ### Swagger UI
 You can access it at `http://localhost:3000/docs`

@@ -4,6 +4,7 @@
   "description": "",
   "type": "module",
   "scripts": {
+    "build": "npm run build:frontend && npm run build:backend",
     "build:backend": "npm run --prefix backend build",
     "build:frontend": "npm run --prefix frontend build",
     "dev:backend": "npm run --prefix backend dev",
