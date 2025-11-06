@@ -1,6 +1,6 @@
 import createFetchClient from 'openapi-fetch';
 import createClient from 'openapi-react-query';
-import type { paths } from './lib/api/v1';
+import type { paths } from '@/lib/api/v1';
 
 export function getBaseUrl() {
   return import.meta.env.DEV ? 'http://localhost:3000' : '';

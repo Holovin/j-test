@@ -1,10 +1,10 @@
 import { useMemo, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { $api, fetchClient } from '../../api.ts';
-import { useHeader } from '../../contexts/useHeader.ts';
-import VirtualGrid from '../../components/VirtualGrid/VirtualGrid.tsx';
-import Image from '../../components/Image/Image.tsx';
-import TagFilter from '../../components/TagFilter/TagFilter.tsx';
+import { $api, fetchClient } from '@/api';
+import { useHeader } from '@/contexts/useHeader';
+import VirtualGrid from '@/components/VirtualGrid/VirtualGrid';
+import Image from '@/components/Image/Image';
+import TagFilter from '@/components/TagFilter/TagFilter';
 
 const CHUNK_SIZE = 10;
 const TAG_PARAM_KEY = 'tag';

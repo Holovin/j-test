@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import classNames from 'classnames';
-import { Routes } from '../../routes/paths.ts';
+import { Routes } from '@/routes/paths';
 import './Header.css';
 
 interface HeaderProps {

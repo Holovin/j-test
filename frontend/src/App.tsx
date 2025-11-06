@@ -1,6 +1,6 @@
 import { RouterProvider } from 'react-router-dom';
-import { router } from './routes/router.tsx';
-import { HeaderProvider } from './contexts/HeaderContext.tsx';
+import { router } from '@/routes/router';
+import { HeaderProvider } from '@/contexts/HeaderContext';
 import './App.css';
 
 function App() {

@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
-import { useHeader } from '../../contexts/useHeader.ts';
-import Header from '../../components/Header/Header.tsx';
+import { useHeader } from '@/contexts/useHeader';
+import Header from '@/components/Header/Header';
 
 function RootLayout() {
   const { isLoading, meta, setMeta } = useHeader();

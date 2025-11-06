@@ -1,5 +1,5 @@
-import { getBaseUrl } from '../../api.ts';
-import TagList from '../TagList/TagList.tsx';
+import { getBaseUrl } from '@/api';
+import TagList from '@/components/TagList/TagList';
 import './Image.css';
 
 interface ImageProps {

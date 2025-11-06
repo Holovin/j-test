@@ -1,5 +1,5 @@
 import { useState, type ReactNode } from 'react';
-import { HeaderContext } from './HeaderContextType.ts';
+import { HeaderContext } from '@/contexts/HeaderContextType';
 
 export function HeaderProvider({ children }: { children: ReactNode }) {
   const [isLoading, setIsLoading] = useState(false);
