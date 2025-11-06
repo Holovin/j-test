@@ -1,0 +1,7 @@
+#root {
+  max-width: var(--layout-max-width);
+  width: 100%;
+
+  margin: 0 auto;
+  padding: var(--spacing-lg);
+}

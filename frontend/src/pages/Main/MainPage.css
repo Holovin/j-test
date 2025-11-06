@@ -1,0 +1,12 @@
+.main-page {
+  padding-inline: var(--spacing-lg);
+  text-align: left;
+}
+
+.main-page__info {
+  margin-block: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-medium);
+
+  background: var(--color-bg-medium);
+}

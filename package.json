@@ -1,0 +1,22 @@
+{
+  "name": "jb-test",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build:backend": "npm run --prefix backend build",
+    "build:frontend": "npm run --prefix frontend build",
+    "dev:backend": "npm run --prefix backend dev",
+    "dev:frontend": "npm run --prefix frontend dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Holovin/j-test.git"
+  },
+  "author": "Alex Holovin <alex@holov.in>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Holovin/j-test/issues"
+  },
+  "homepage": "https://github.com/Holovin/j-test#readme"
+}

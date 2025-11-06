@@ -1,0 +1,43 @@
+.tag-list {
+  position: relative;
+  margin-block-start: var(--spacing-xs);
+}
+
+.tag-list::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 30px;
+
+  background: linear-gradient(to right, transparent, var(--color-bg-medium));
+  pointer-events: none;
+}
+
+.tag-list__container {
+  user-select: none;
+
+  display: flex;
+  gap: var(--spacing-xs);
+
+  overflow-y: hidden;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  overscroll-behavior-x: contain;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.tag-list__button {
+  border-radius: var(--radius-large);
+  padding: 2px 8px;
+
+  border: 0;
+  background: var(--color-bg-dark);
+
+  font-size: var(--font-size-small);
+  text-decoration: none;
+  cursor: pointer;
+}

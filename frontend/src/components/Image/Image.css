@@ -1,0 +1,25 @@
+.image-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+
+  text-align: start;
+  background: var(--color-bg-medium);
+}
+
+.image-card__image {
+  height: 256px;
+  width: 416px;
+  object-fit: cover;
+}
+
+.image-card__description {
+  flex-shrink: 0;
+  padding: var(--spacing-sm);
+  width: 100%;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

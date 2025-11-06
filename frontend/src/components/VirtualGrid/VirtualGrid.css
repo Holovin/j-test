@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: stretch;
+}
+
+.grid__item {
+  display: flex;
+  min-height: 0;
+  border-radius: var(--radius-medium);
+  overflow: hidden;
+
+  text-align: center;
+  box-shadow: var(--shadow-standard);
+}
